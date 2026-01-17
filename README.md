@@ -4,6 +4,10 @@
 
 Датасет: *Women’s Clothing E-Commerce Reviews*.
 
+## ВАЖНО
+model.safetensors не влезла в GitHub.
+Скачайте ее из архива или по [ссылке](https://disk.yandex.ru/d/9_d1uBcoJ2ErJw) и добавьте в /models/bert/, чтобы получить сразу рабочий проект.
+
 ## Схема
 Telegram voice -> сервер -> ASR (Whisper) -> текст -> классификатор (лучший: RuBERT) -> метка -> ответ в Telegram.
 
